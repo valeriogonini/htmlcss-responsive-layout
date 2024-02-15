@@ -65,9 +65,28 @@ button {
     min-height: 30px;
     padding: 0 10px;
 }
+.fa-bars{
+    display: none;
+    
+}
 @media (max-width:850px) {
     .list-header{
         display: none;
+
+    }
+    .fa-bars{
+        color: white;
+        display: flex;
+    }
+}
+@media (max-width:480px) {
+    .list-header{
+        display: none;
+
+    }
+    .fa-bars{
+        color: white;
+        display: flex;
     }
 }
 
@@ -78,7 +97,7 @@ button {
     padding-top: 50px;
 }
 .col-50{
-    height: 400px;
+    height: 100px;
     width: 66.66%;
     display: flex;
     padding: 10px;
@@ -97,7 +116,7 @@ button {
     background-color:rgb(181, 221, 255);
     height: 350px;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     flex-direction: column;
     display: flex;
     padding: 20px;
@@ -123,5 +142,39 @@ button {
 }
 .p-demo{
     text-align: center;
+    font-size: 15px;
+}
+.fa-file-code{
+    font-size: 80px;
+    color: rgb(0, 132, 253);
+
+}
+.title-col33{
+    color: rgb(0, 132, 253);
+
+}
+@media (max-width:850px) {
+    .section-demo .p{
+        font-size: 10px;
+    }
+    .col-50{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:480px) {
+    .col-50{
+        width: 100%;
+
+    }
+    .col-60{
+        width: 100%;
+    }
+    .col-40{
+        width: 100%;
+    }
+    .col-33{
+        width: 100%;
+    }
 }
 
