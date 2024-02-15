@@ -188,6 +188,9 @@ nav .fa-bars {
     .section-demo .p {
         font-size: 10px;
     }
+    .col-40{
+        padding-top: 0;
+    }
 
     .col-50 {
         display: flex;
@@ -206,6 +209,7 @@ nav .fa-bars {
 
     .col-60 {
         width: 100%;
+      
     }
 
     .col-40 {
