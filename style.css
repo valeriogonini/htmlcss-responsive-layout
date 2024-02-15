@@ -65,7 +65,7 @@ button {
     min-height: 30px;
     padding: 0 10px;
 }
-.fa-bars{
+nav .fa-bars{
     display: none;
     
 }
@@ -74,7 +74,7 @@ button {
         display: none;
 
     }
-    .fa-bars{
+    nav .fa-bars{
         color: white;
         display: flex;
     }
@@ -152,6 +152,13 @@ button {
 .title-col33{
     color: rgb(0, 132, 253);
 
+}
+.button-apple{
+    border-radius: 9999px;
+    min-height: 30px;
+    padding: 0 40px;
+    color: white;
+    background-color: rgb(0, 132, 253);
 }
 @media (max-width:850px) {
     .section-demo .p{
