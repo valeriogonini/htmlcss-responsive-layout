@@ -351,6 +351,21 @@ nav .fa-bars {
     .col-sm-12 {
         width: 100%
     }
+
+    .col-12 {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .section-testimonial {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .section-testimonial .title-testimonials {
+        font-size: 30px;
+    }
 }
 
 
@@ -394,4 +409,3 @@ nav .fa-bars {
     margin-top: 20px;
     font-size: 15px;
 }
-
