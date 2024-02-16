@@ -95,6 +95,9 @@ nav .fa-bars {
         display: none;
 
     }
+    .col-8{
+        width: none;
+    }
 
     .fa-bars {
         color: white;
@@ -325,18 +328,26 @@ nav .fa-bars {
     .title-planning {
         font-size: 50px;
     }
-    .planning2{
+
+    .planning2 {
         padding: 50px;
     }
-    .title-planning2{
+
+    .title-planning2 {
         font-size: 30px;
     }
-    .p-planning2{
+
+    .p-planning2 {
         max-width: none;
     }
 
+    .img-planning2 {
+        width: 100%;
+    }
 }
 
 @media (max-width:480px) {
-
+    .col-sm-12 {
+        width: 100%
+    }
 }
