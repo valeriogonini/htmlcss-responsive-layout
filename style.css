@@ -95,7 +95,8 @@ nav .fa-bars {
         display: none;
 
     }
-    .col-8{
+
+    .col-8 {
         width: none;
     }
 
@@ -351,3 +352,46 @@ nav .fa-bars {
         width: 100%
     }
 }
+
+
+
+.section-testimonial {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title-testimonials {
+    font-size: 40px;
+    color: rgb(151, 146, 228);
+    padding: 40px 0;
+}
+
+.col-12 {
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    padding: 30px 0;
+    width: 100%;
+    background-color: rgb(151, 146, 228);
+    border-radius: 30px;
+}
+
+.col-12 img {
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-testimon {
+    margin-left: 20px;
+    color: white;
+}
+
+.margin-testimon h5 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
