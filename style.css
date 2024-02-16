@@ -104,6 +104,9 @@ nav .fa-bars {
         color: white;
         display: flex;
     }
+    .col-12 img{
+        margin-bottom: 10px;
+    }
 }
 
 
