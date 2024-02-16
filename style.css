@@ -107,10 +107,11 @@ nav .fa-bars {
 /*section-demo*/
 .section-demo {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.col-50 {
-    width: 66.66%;
+.col-8 {
+    width: calc(8*100% / 12);
     display: flex;
     padding: 10px;
     border-radius: 10px;
@@ -220,3 +221,27 @@ nav .fa-bars {
         width: 100%;
     }
 }
+
+/*section-planning*/
+.section-planning{
+background-color: rgb(151, 146, 228);
+}
+
+.col-50{
+    width: 50%;
+}
+.img1-planning{
+    width: 300px;
+    padding-top: 50px;
+}
+.title-planning{
+    color: white;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.p-planning{
+    padding-top: 25px;
+    color: white;
+}
+
+
