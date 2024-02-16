@@ -127,7 +127,8 @@ nav .fa-bars {
     width: calc(100% / 3);
 
 }
-.first-col-demo{
+
+.first-col-demo {
     display: flex;
     align-items: stretch;
 }
@@ -141,10 +142,12 @@ nav .fa-bars {
     padding: 20px;
     border-radius: 10px;
 }
-.background-head{
+
+.background-head {
     background-color: rgb(181, 221, 255);
     border-radius: 10px;
 }
+
 .col-60 {
     padding: 30px;
     gap: 50px;
@@ -189,7 +192,8 @@ nav .fa-bars {
     .section-demo .p {
         font-size: 10px;
     }
-    .col-40{
+
+    .col-40 {
         padding-top: 0;
     }
 
@@ -197,7 +201,8 @@ nav .fa-bars {
         display: flex;
         flex-wrap: wrap;
     }
-    .col-60{
+
+    .col-60 {
         width: 100%;
     }
 }
@@ -210,7 +215,7 @@ nav .fa-bars {
 
     .col-60 {
         width: 100%;
-      
+
     }
 
     .col-40 {
@@ -223,34 +228,38 @@ nav .fa-bars {
 }
 
 /*section-planning*/
-.section-planning{
-background-color: rgb(151, 146, 228);
+.section-planning {
+    background-color: rgb(151, 146, 228);
 }
 
-.col-50{
+.col-50 {
     width: 50%;
 }
-.img1-planning{
+
+.img1-planning {
     width: 300px;
     padding-top: 50px;
 }
-.title-planning{
+
+.title-planning {
     color: white;
     padding-top: 100px;
     font-size: 25px;
 }
-.p-planning{
+
+.p-planning {
     max-width: 400px;
     font-size: 15px;
     padding-top: 25px;
     color: white;
 }
-.padding-planning2{
+
+.padding-planning2 {
     padding-bottom: 30px;
     padding-top: 180px;
 }
 
-.planning2{
+.planning2 {
     padding: 25px 10px;
     border-radius: 50px;
     flex-direction: column;
@@ -258,25 +267,76 @@ background-color: rgb(151, 146, 228);
     align-items: center;
     background-color: white;
 }
-    
-.img-planning2{
+
+.img-planning2 {
     width: 200px;
 }
-.title-planning2{
+
+.title-planning2 {
     padding-top: 10px;
 }
 
-.p-planning2{
+.p-planning2 {
     text-align: center;
     padding: 15px 0;
     font-size: 15px;
     text-align: center;
     max-width: 300px;
 }
-.button-planning{
-    background-color:rgb(151, 146, 228);
+
+.button-planning {
+    background-color: rgb(151, 146, 228);
     border-radius: 999px;
     padding: 10px 15px;
     font-size: 15px;
 }
 
+@media (max-width:850px) {
+    .col-50 {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .button-planning {
+
+        padding: 15px 25px;
+        font-size: 30px;
+    }
+
+    .p-planning2 {
+        font-size: 20px;
+    }
+
+    .padding-planning2 {
+        padding-top: 30px;
+    }
+
+    .img1-planning {
+        width: 90%;
+    }
+
+    .p-planning {
+        max-width: none;
+        font-size: 20px;
+    }
+
+    .title-planning {
+        font-size: 50px;
+    }
+    .planning2{
+        padding: 50px;
+    }
+    .title-planning2{
+        font-size: 30px;
+    }
+    .p-planning2{
+        max-width: none;
+    }
+
+}
+
+@media (max-width:480px) {
+
+}
